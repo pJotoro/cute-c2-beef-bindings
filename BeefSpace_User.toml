@@ -1,0 +1,58 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\c2.bf", "src\\cute_c2.c", "src\\build.bat"]
+
+[MainWindow]
+X = 371
+Y = 78
+Width = 1178
+Height = 884
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 642.0
+RequestedHeight = 484.0
+SizePriority = 484.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 256.0
+RequestedHeight = 484.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 110.8333
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 75.59998
+SizePriority = 0.977136
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "c2.bf"
+TabWidth = 56.66666
+Type = "SourceViewPanel"
+FilePath = "src\\c2.bf"
+CursorPos = 345
+ProjectName = "CuteC2Bindings"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 1659.6
+RequestedHeight = 971.0
+SizePriority = 0.022864
+Type = "TabbedView"

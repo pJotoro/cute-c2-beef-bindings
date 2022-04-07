@@ -1,0 +1,16 @@
+FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*"}
+
+[Project]
+Name = "CuteC2Bindings"
+TargetType = "BeefLib"
+StartupObject = "CuteC2Bindings.Program"
+
+[Configs.Debug.Win64]
+CLibType = "Static"
+BeefLibType = "Static"
+LibPaths = ["C:\\Users\\Jonar\\Desktop\\Dev\\Beef_Projects\\CuteC2Bindings\\dist\\cute_c2.lib"]
+
+[[ProjectFolder.Items]]
+Type = "IgnoreSource"
+Name = "build.bat"
